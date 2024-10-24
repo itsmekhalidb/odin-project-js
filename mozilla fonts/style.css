@@ -2,44 +2,111 @@
 
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+    font-family: 'Agdasima', sans-serif;
+    font-size: 17px;
+}
+
+body {
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
-  }
-  
-  /* Layout */
-  
-  section {
+    line-height: 130%;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+}
+
+/* Layout */
+
+section {
     float: left;
     width: 50%;
-  }
-  
-  aside {
+}
+
+aside {
     float: left;
     width: 30%;
-  }
-  
-  nav {
+}
+
+nav {
     float: left;
     width: 20%;
-  }
-  
-  footer {
+}
+
+footer {
     clear: both;
-  }
-  
-  header, section, aside, nav, footer {
+}
+
+header,
+section,
+aside,
+nav,
+footer {
     padding: 20px;
-  }
-  
-  /* header and footer */
-  
-  header, footer {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+/* header and footer */
+
+header,
+footer {
     border-top: 5px solid #a66;
     border-bottom: 5px solid #a66;
-  }
-  
-  /* WRITE YOUR CODE BELOW HERE */
+}
+
+/* font classes */
+
+.kdam-thmor-pro-regular {
+    font-family: "Kdam Thmor Pro", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.agdasima-regular {
+    font-family: "Agdasima", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* my code */
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+header {
+    letter-spacing: 3px;
+}
+
+h2 + p {
+    text-indent: 20px;
+}
+
+a {
+    color: #a66;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(94, 0, 0)
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a[href^="https://"] {
+    background: url(./external-link.svg) center right no-repeat;
+    padding-right: 13px;
+}
+
+ul, ol, li {
+    line-height: 130%;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    list-style-type: circle;
+}
